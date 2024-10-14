@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Load your dataset
 @st.cache_data  # Use st.cache_data for caching the dataset to improve performance
 def load_data():
-    data = pd.read_csv("/Users/himanshuagarwal/Downloads/Imports_Exports_Dataset 2.csv")
+    data = pd.read_csv(r"Imports_Exports_Dataset 2.csv")
     return data
 
 data = load_data()
